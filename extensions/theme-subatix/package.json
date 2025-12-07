@@ -1,0 +1,33 @@
+{
+  "name": "theme-subatix",
+  "displayName": "Subatix Themes",
+  "description": "Default themes for Subatix IDE",
+  "version": "1.0.0",
+  "publisher": "subatix",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Subatix Dark",
+        "label": "Subatix Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/subatix-dark-color-theme.json"
+      },
+      {
+        "id": "Subatix Light",
+        "label": "Subatix Light",
+        "uiTheme": "vs",
+        "path": "./themes/subatix-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Subatix/Subatix_workspace.git"
+  }
+}
+
